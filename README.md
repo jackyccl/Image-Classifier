@@ -72,4 +72,30 @@ python -m scripts.retrain \
  python -m scripts.retrain -h
  ```
  
+ ### Step 8: Using the Retrained Model
+ The retraining script writes data to the following two files:
+ *```tf_files/retrianed_graph.pb``` that contains a version of selected network with a final layer retrained on your categories
+ *```tf_flies/retrained_labels.txt``` is a text file containing labels
+ 
+ Hence, we can use the retrained model by issueing the following command:
+ ```
+ python -m scripts.label_image \
+    --graph=tf_files/retrained_graph.pb  \
+    --image=(your image directory here)
+ ```
+ Remember to paste inside your image directory. In Window, you need to change the '\' to '/' if you experience any error for the directory. The result that I get for a daisy photo is shown below:
+ 
+ ```
+ daisy (score = 0.99071)
+sunflowers (score = 0.00595)
+dandelion (score = 0.00252)
+roses (score = 0.00049)
+tulips (score = 0.00032)
+```
+This indicates a high confidence (~99%) that the image is a daisy and low confidence for any other label.
+
+#### In the next tutorial, I will be using my own training model to classify cats and dogs.
+ 
+ 
+ 
  
