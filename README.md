@@ -6,7 +6,7 @@ We will be using transfer learning which means we start with a model that has be
 A model trained on the ImageNet Large Visual Recognition Challenge dataset is being used. 
 
 
-###Step 1: Install Tensorflow
+### Step 1: Install Tensorflow
 ```
 > pip install --upgrade "tensorflow==1.7.*"
 ```
