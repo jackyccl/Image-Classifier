@@ -5,6 +5,8 @@ We will be using transfer learning which means we start with a model that has be
 
 A model trained on the ImageNet Large Visual Recognition Challenge dataset is being used. 
 
+#### Note: I have uploaded the files to ease your download process, you can also follow each step below on your own to use transfer learning.
+
 
 ### Step 1: Install Tensorflow and install Docker
 The image classifier was tested on Tensorflow version 1.7.0.
