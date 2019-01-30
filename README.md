@@ -1,4 +1,4 @@
-# Image-Classifier
+# Image-Classifier-Using-Transfer_Learning
 
 In this session, I will run Tensorflow on a single machine and will train a simple classifier to classify images of flowers.
 We will be using transfer learning which means we start with a model that has been trained on similar problem. Transfer learning can be done in shorter order as compared to deep learning from scratch.
