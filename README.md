@@ -76,8 +76,8 @@ python -m scripts.retrain \
  
  ### Step 8: Using the Retrained Model
  The retraining script writes data to the following two files:
- *```tf_files/retrianed_graph.pb``` that contains a version of selected network with a final layer retrained on your categories
- *```tf_flies/retrained_labels.txt``` is a text file containing labels
+ * ```tf_files/retrianed_graph.pb``` that contains a version of selected network with a final layer retrained on your categories
+ * ```tf_flies/retrained_labels.txt``` is a text file containing labels
  
  Hence, we can use the retrained model by issueing the following command:
  ```
