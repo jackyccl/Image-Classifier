@@ -5,7 +5,7 @@ We will be using transfer learning which means we start with a model that has be
 
 A model trained on the ImageNet Large Visual Recognition Challenge dataset is being used. 
 
-#### Note: I have uploaded some files to ease your download process, follow each step below on your own to use transfer learning.
+#### Note: I have uploaded some files to ease your download process, follow each step below on your own to use transfer learning on different categories.
 
 
 ### Step 1: Install Tensorflow and install Docker
